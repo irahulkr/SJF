@@ -4,7 +4,7 @@ int main()
 {
   int p[20], burst_time[20], waiting_time[20], turn_around_time[20], i=0, k, n=5, temp;
   float waiting_time_avg, turn_around_time_avg;
-  FILE *fp = fopen("cpu_burst.txt", "r");
+  FILE *fp = fopen("CPU_BURST.txt", "r");
   while((getc(fp))!=EOF)
     {
 
